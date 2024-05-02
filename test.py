@@ -56,24 +56,12 @@ for string in section_list:
     name = name[slice_indicator-1::-1]
     name_list.append(name)
 
-
-print("Namelist: ")
-print(name_list)
-print("Sectionlist: ")
-print(section_list)
-print("QualNameList: ")
-print(qual_name_list)
-
-#Bis hier funktioniert alles :)
-
-
 i = 0
 with open("artifact_data.json","r") as df2:
     #data = json.loads(df2.content.decode('ascii')[24:-2])
     for name in name_list:
         try:
             path = qual_name_list[i]
-            #print("Name: "+name+", Pfad: "+path )
             res = jmespath.search("[?name == '{}']".format(path), doc['metainfo']['packages'])[0]
             section = jmespath.search("[?name == '{}']".format(name),  res["section_definitions"])[0]
             print(section["links"])
