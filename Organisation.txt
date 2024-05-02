@@ -1,0 +1,15 @@
+To-do live:
+    -start with ce instead of se
+
+
+To-do old:
+    -Retrieve Links [x]
+    -Retrieve Path of definition []
+    -Retrieve Links by entering id/similar []
+    -Retrieve Links from Quantities []
+    -Retrieve Links from Quantities by entering id/similar []
+
+
+Gedanken:
+    -in Michas File sind alle Links enthalten -> Suche vermutlich am sinnvollsten nach 'Name' (CamelCase)
+        - Problem 1: Namen sind inkonsistent (e.g. SpinCoating =! HySprint_Spincoating)
