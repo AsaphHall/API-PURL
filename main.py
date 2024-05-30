@@ -3,6 +3,7 @@ import jmespath
 
 link_a = "ce_nome_s.CE_NOME_Chronoamperometry"
 link_b = "ce_nome_s.CE_NOME_Chronocoulometry"
+link_c = "ce_nome_s.CE_NOME_Chronoamperometry"
 
 def split_m_def(m_def):
         splitted_m_def = m_def.split(".")
@@ -30,4 +31,4 @@ def t_link_retrieval(m_def):
 
     return path_to_link_2["links"]
 
-print(t_link_retrieval(link_a))
+print(t_link_retrieval(link_c))
