@@ -1,0 +1,443 @@
+{
+    "entry_id": "kv6JW1Gdzo7yzaIW-6CfOhZBOgdK",
+    "required": {},
+    "data": {
+        "upload_id": "PlyEyCz3QmGgy8qMyetYqA",
+        "references": [],
+        "origin": "Tobias R\u00f6schmann",
+        "text_search_contents": [
+            "Eref",
+            "Eoc",
+            "test cv",
+            "Cyclic Voltammetry"
+        ],
+        "quantities": [
+            "",
+            "data",
+            "data.atmosphere",
+            "data.atmosphere.ambient_pressure",
+            "data.atmosphere.relative_humidity",
+            "data.atmosphere.temperature",
+            "data.cycles",
+            "data.datetime",
+            "data.method",
+            "data.name",
+            "data.properties",
+            "data.properties.cycles",
+            "data.properties.final_potential_measured_against",
+            "data.properties.initial_potential",
+            "data.properties.initial_potential_measured_against",
+            "data.properties.limit_potential_1",
+            "data.properties.limit_potential_1_measured_against",
+            "data.properties.limit_potential_2",
+            "data.properties.limit_potential_2_measured_against",
+            "data.properties.sample_area",
+            "data.properties.scan_rate",
+            "data.properties.step_size",
+            "data.samples",
+            "data.steps",
+            "metadata",
+            "metadata.coauthors",
+            "metadata.datasets",
+            "metadata.embargo_length",
+            "metadata.entry_coauthors",
+            "metadata.entry_create_time",
+            "metadata.entry_hash",
+            "metadata.entry_id",
+            "metadata.entry_name",
+            "metadata.entry_timestamp",
+            "metadata.entry_timestamp.timestamp",
+            "metadata.entry_timestamp.token",
+            "metadata.entry_timestamp.token_seed",
+            "metadata.entry_timestamp.tsa_server",
+            "metadata.entry_type",
+            "metadata.files",
+            "metadata.last_processing_time",
+            "metadata.license",
+            "metadata.main_author",
+            "metadata.mainfile",
+            "metadata.nomad_commit",
+            "metadata.nomad_version",
+            "metadata.parser_name",
+            "metadata.processed",
+            "metadata.processing_errors",
+            "metadata.published",
+            "metadata.quantities",
+            "metadata.references",
+            "metadata.reviewers",
+            "metadata.section_defs",
+            "metadata.section_defs.definition_id",
+            "metadata.section_defs.definition_qualified_name",
+            "metadata.section_defs.used_directly",
+            "metadata.sections",
+            "metadata.upload_create_time",
+            "metadata.upload_id",
+            "metadata.upload_name",
+            "metadata.with_embargo",
+            "results",
+            "results.eln",
+            "results.eln.methods",
+            "results.eln.names",
+            "results.eln.sections",
+            "results.properties",
+            "workflow2",
+            "workflow2.inputs",
+            "workflow2.name",
+            "workflow2.tasks"
+        ],
+        "datasets": [],
+        "n_quantities": 65,
+        "nomad_version": "1.2.2.dev315+g873ad1475",
+        "upload_create_time": "2024-03-06T11:27:28.756000+00:00",
+        "nomad_commit": "",
+        "section_defs": [
+            {
+                "used_directly": false,
+                "definition_id": "172cc729c1bb296369be28281d58c7bbf90830ee",
+                "definition_qualified_name": "baseclasses.BaseMeasurement"
+            },
+            {
+                "used_directly": true,
+                "definition_id": "17a1bd2d579043e5a86e4c032634d34378a8eb75",
+                "definition_qualified_name": "baseclasses.SampleReference"
+            },
+            {
+                "used_directly": true,
+                "definition_id": "ad6ae05f2b76b0d187c7f2062b5090a8c9354a23",
+                "definition_qualified_name": "baseclasses.atmosphere.Atmosphere"
+            },
+            {
+                "used_directly": true,
+                "definition_id": "3149ae1aa3c91e369595567135b6d38eeb405576",
+                "definition_qualified_name": "baseclasses.chemical_energy.cyclicvoltammetry.CVProperties"
+            },
+            {
+                "used_directly": true,
+                "definition_id": "4681c7ee4fc1a62c7e3f7a8fd67dbd3da83293de",
+                "definition_qualified_name": "baseclasses.chemical_energy.cyclicvoltammetry.CyclicVoltammetry"
+            },
+            {
+                "used_directly": false,
+                "definition_id": "209536675a96d46dbdb2b236e5f84cd561a69755",
+                "definition_qualified_name": "baseclasses.chemical_energy.potentiostat_measurement.PotentiostatMeasurement"
+            },
+            {
+                "used_directly": true,
+                "definition_id": "4f0d68cc214e0600e6ee0da384b6f55db8cda9aa",
+                "definition_qualified_name": "baseclasses.chemical_energy.potentiostat_measurement.PotentiostatProperties"
+            },
+            {
+                "used_directly": true,
+                "definition_id": "09d74898a754632b32ce3a0af8318ba66aed6649",
+                "definition_qualified_name": "baseclasses.chemical_energy.potentiostat_measurement.VoltammetryCycle"
+            },
+            {
+                "used_directly": false,
+                "definition_id": "f2d206a75b638e4f886d8adaf07447d723d0d682",
+                "definition_qualified_name": "baseclasses.chemical_energy.voltammetry.Voltammetry"
+            },
+            {
+                "used_directly": true,
+                "definition_id": "2d049b9da5f50317d1f96887d0fd335150013147",
+                "definition_qualified_name": "baseclasses.chemical_energy.voltammetry.VoltammetryCycleWithPlot"
+            },
+            {
+                "used_directly": true,
+                "definition_id": "a8a33f77241a254a9a0baf0870d7a315674dd43f",
+                "definition_qualified_name": "ce_nsli_s.CE_NSLI_CyclicVoltammetry"
+            },
+            {
+                "used_directly": true,
+                "definition_id": "7047cbff9980abff17cce4b1b6b0d1c783505b7f",
+                "definition_qualified_name": "nomad.datamodel.data.ArchiveSection"
+            },
+            {
+                "used_directly": true,
+                "definition_id": "538f52fd8d52b29372066f878319c6aeb03b74d2",
+                "definition_qualified_name": "nomad.datamodel.data.EntryData"
+            },
+            {
+                "used_directly": true,
+                "definition_id": "73facc0493fa64bba2ecce4d74a58c86730870f1",
+                "definition_qualified_name": "nomad.datamodel.datamodel.EntryArchive"
+            },
+            {
+                "used_directly": true,
+                "definition_id": "05a28fa9fb98a6760d57e6246291f057bf202c4d",
+                "definition_qualified_name": "nomad.datamodel.datamodel.EntryMetadata"
+            },
+            {
+                "used_directly": true,
+                "definition_id": "265ae33dbc9ace82b50260c1050d30c59ef9cb3c",
+                "definition_qualified_name": "nomad.datamodel.datamodel.RFC3161Timestamp"
+            },
+            {
+                "used_directly": false,
+                "definition_id": "fc2735d177bf36f9718ca66a764a56fc0c6200a0",
+                "definition_qualified_name": "nomad.datamodel.metainfo.basesections.Activity"
+            },
+            {
+                "used_directly": true,
+                "definition_id": "2f62e333291c2fff9f21da567b0dd2d1744c4c10",
+                "definition_qualified_name": "nomad.datamodel.metainfo.basesections.ActivityStep"
+            },
+            {
+                "used_directly": false,
+                "definition_id": "add2edfa25a61ff3bbfdebacc870181f64f41634",
+                "definition_qualified_name": "nomad.datamodel.metainfo.basesections.BaseSection"
+            },
+            {
+                "used_directly": true,
+                "definition_id": "8d15d90f49865ce533e6708c2b7b504884ac01bb",
+                "definition_qualified_name": "nomad.datamodel.metainfo.basesections.CompositeSystemReference"
+            },
+            {
+                "used_directly": false,
+                "definition_id": "20e9c021c113f4fc5bfc05cb244ab34232fa2ef6",
+                "definition_qualified_name": "nomad.datamodel.metainfo.basesections.EntityReference"
+            },
+            {
+                "used_directly": false,
+                "definition_id": "92a193e908065fa4ff809fb88e83e3057876be33",
+                "definition_qualified_name": "nomad.datamodel.metainfo.basesections.Measurement"
+            },
+            {
+                "used_directly": false,
+                "definition_id": "6209630d895b001f43398d35b588115dc8492933",
+                "definition_qualified_name": "nomad.datamodel.metainfo.basesections.SectionReference"
+            },
+            {
+                "used_directly": true,
+                "definition_id": "36539e90c9f93f81d9846055d8668bb23720bdf3",
+                "definition_qualified_name": "nomad.datamodel.metainfo.workflow.Link"
+            },
+            {
+                "used_directly": true,
+                "definition_id": "ac62fdff74f54fd477531446ca111c0dd9df6ba2",
+                "definition_qualified_name": "nomad.datamodel.metainfo.workflow.Task"
+            },
+            {
+                "used_directly": true,
+                "definition_id": "fc65ae24157492e422afe61173a71403fc5e1fd7",
+                "definition_qualified_name": "nomad.datamodel.metainfo.workflow.Workflow"
+            },
+            {
+                "used_directly": true,
+                "definition_id": "eeed330bd18d40f3a2a00cc35ba6f58808d0c543",
+                "definition_qualified_name": "nomad.datamodel.results.ELN"
+            },
+            {
+                "used_directly": true,
+                "definition_id": "260156f83e51adc823b1f619897fb0d7e3fbaffc",
+                "definition_qualified_name": "nomad.datamodel.results.Properties"
+            },
+            {
+                "used_directly": true,
+                "definition_id": "0f0e21c64644f5cec327121ed6f021080721478e",
+                "definition_qualified_name": "nomad.datamodel.results.Results"
+            }
+        ],
+        "processing_errors": [
+            "could not normalize section"
+        ],
+        "results": {
+            "eln": {
+                "names": [
+                    "test cv"
+                ],
+                "methods": [
+                    "Cyclic Voltammetry"
+                ],
+                "sections": [
+                    "CE_NSLI_CyclicVoltammetry"
+                ]
+            },
+            "properties": {
+                "available_properties": []
+            }
+        },
+        "entry_name": "test cv",
+        "last_processing_time": "2024-05-02T09:44:14.056931+00:00",
+        "parser_name": "parsers/archive",
+        "calc_id": "kv6JW1Gdzo7yzaIW-6CfOhZBOgdK",
+        "published": false,
+        "writers": [
+            {
+                "user_id": "3b4ebb5f-41d1-4f2f-8764-5059b74d5cf2",
+                "name": "Tobias R\u00f6schmann"
+            }
+        ],
+        "sections": [
+            "baseclasses.SampleReference",
+            "baseclasses.atmosphere.Atmosphere",
+            "baseclasses.chemical_energy.cyclicvoltammetry.CVProperties",
+            "baseclasses.chemical_energy.voltammetry.VoltammetryCycleWithPlot",
+            "ce_nsli_s.CE_NSLI_CyclicVoltammetry",
+            "nomad.datamodel.datamodel.EntryArchive",
+            "nomad.datamodel.datamodel.EntryMetadata",
+            "nomad.datamodel.datamodel.RFC3161Timestamp",
+            "nomad.datamodel.metainfo.basesections.ActivityStep",
+            "nomad.datamodel.metainfo.workflow.Link",
+            "nomad.datamodel.metainfo.workflow.Workflow",
+            "nomad.datamodel.results.ELN",
+            "nomad.datamodel.results.Properties",
+            "nomad.datamodel.results.Results"
+        ],
+        "processed": true,
+        "mainfile": "test_cv.archive.json",
+        "main_author": {
+            "user_id": "3b4ebb5f-41d1-4f2f-8764-5059b74d5cf2",
+            "name": "Tobias R\u00f6schmann"
+        },
+        "viewers": [
+            {
+                "user_id": "3b4ebb5f-41d1-4f2f-8764-5059b74d5cf2",
+                "name": "Tobias R\u00f6schmann"
+            }
+        ],
+        "entry_create_time": "2024-05-02T09:42:42.367000+00:00",
+        "with_embargo": false,
+        "search_quantities": [
+            {
+                "path_archive": "data.name",
+                "str_value": "test cv",
+                "definition": "nomad.datamodel.metainfo.basesections.BaseSection.name",
+                "id": "data.name#ce_nsli_s.CE_NSLI_CyclicVoltammetry"
+            },
+            {
+                "path_archive": "data.datetime",
+                "datetime_value": "2024-05-02T09:42:42.605832+00:00",
+                "definition": "nomad.datamodel.metainfo.basesections.Activity.datetime",
+                "id": "data.datetime#ce_nsli_s.CE_NSLI_CyclicVoltammetry"
+            },
+            {
+                "path_archive": "data.method",
+                "str_value": "Cyclic Voltammetry",
+                "definition": "nomad.datamodel.metainfo.basesections.Activity.method",
+                "id": "data.method#ce_nsli_s.CE_NSLI_CyclicVoltammetry"
+            },
+            {
+                "path_archive": "data.atmosphere.0.temperature",
+                "definition": "baseclasses.atmosphere.Atmosphere.temperature",
+                "float_value": 80.0,
+                "id": "data.atmosphere.temperature#ce_nsli_s.CE_NSLI_CyclicVoltammetry"
+            },
+            {
+                "path_archive": "data.atmosphere.0.ambient_pressure",
+                "definition": "baseclasses.atmosphere.Atmosphere.ambient_pressure",
+                "float_value": 0.25,
+                "id": "data.atmosphere.ambient_pressure#ce_nsli_s.CE_NSLI_CyclicVoltammetry"
+            },
+            {
+                "path_archive": "data.atmosphere.0.relative_humidity",
+                "definition": "baseclasses.atmosphere.Atmosphere.relative_humidity",
+                "float_value": 42.0,
+                "id": "data.atmosphere.relative_humidity#ce_nsli_s.CE_NSLI_CyclicVoltammetry"
+            },
+            {
+                "path_archive": "data.properties.sample_area",
+                "definition": "baseclasses.chemical_energy.potentiostat_measurement.PotentiostatProperties.sample_area",
+                "float_value": 30.0,
+                "id": "data.properties.sample_area#ce_nsli_s.CE_NSLI_CyclicVoltammetry"
+            },
+            {
+                "path_archive": "data.properties.initial_potential",
+                "definition": "baseclasses.chemical_energy.cyclicvoltammetry.CVProperties.initial_potential",
+                "float_value": 10.0,
+                "id": "data.properties.initial_potential#ce_nsli_s.CE_NSLI_CyclicVoltammetry"
+            },
+            {
+                "path_archive": "data.properties.initial_potential_measured_against",
+                "str_value": "Eref",
+                "definition": "baseclasses.chemical_energy.cyclicvoltammetry.CVProperties.initial_potential_measured_against",
+                "id": "data.properties.initial_potential_measured_against#ce_nsli_s.CE_NSLI_CyclicVoltammetry"
+            },
+            {
+                "path_archive": "data.properties.limit_potential_1",
+                "definition": "baseclasses.chemical_energy.cyclicvoltammetry.CVProperties.limit_potential_1",
+                "float_value": 40.0,
+                "id": "data.properties.limit_potential_1#ce_nsli_s.CE_NSLI_CyclicVoltammetry"
+            },
+            {
+                "path_archive": "data.properties.limit_potential_1_measured_against",
+                "str_value": "Eoc",
+                "definition": "baseclasses.chemical_energy.cyclicvoltammetry.CVProperties.limit_potential_1_measured_against",
+                "id": "data.properties.limit_potential_1_measured_against#ce_nsli_s.CE_NSLI_CyclicVoltammetry"
+            },
+            {
+                "path_archive": "data.properties.limit_potential_2",
+                "definition": "baseclasses.chemical_energy.cyclicvoltammetry.CVProperties.limit_potential_2",
+                "float_value": 50.0,
+                "id": "data.properties.limit_potential_2#ce_nsli_s.CE_NSLI_CyclicVoltammetry"
+            },
+            {
+                "path_archive": "data.properties.limit_potential_2_measured_against",
+                "str_value": "Eoc",
+                "definition": "baseclasses.chemical_energy.cyclicvoltammetry.CVProperties.limit_potential_2_measured_against",
+                "id": "data.properties.limit_potential_2_measured_against#ce_nsli_s.CE_NSLI_CyclicVoltammetry"
+            },
+            {
+                "path_archive": "data.properties.final_potential_measured_against",
+                "str_value": "Eref",
+                "definition": "baseclasses.chemical_energy.cyclicvoltammetry.CVProperties.final_potential_measured_against",
+                "id": "data.properties.final_potential_measured_against#ce_nsli_s.CE_NSLI_CyclicVoltammetry"
+            },
+            {
+                "path_archive": "data.properties.scan_rate",
+                "definition": "baseclasses.chemical_energy.cyclicvoltammetry.CVProperties.scan_rate",
+                "float_value": 250.0,
+                "id": "data.properties.scan_rate#ce_nsli_s.CE_NSLI_CyclicVoltammetry"
+            },
+            {
+                "path_archive": "data.properties.step_size",
+                "definition": "baseclasses.chemical_energy.cyclicvoltammetry.CVProperties.step_size",
+                "float_value": 25.0,
+                "id": "data.properties.step_size#ce_nsli_s.CE_NSLI_CyclicVoltammetry"
+            },
+            {
+                "path_archive": "data.properties.cycles",
+                "definition": "baseclasses.chemical_energy.cyclicvoltammetry.CVProperties.cycles",
+                "float_value": 5.0,
+                "id": "data.properties.cycles#ce_nsli_s.CE_NSLI_CyclicVoltammetry"
+            }
+        ],
+        "files": [
+            "test_cv.archive.json"
+        ],
+        "entry_type": "CE_NSLI_CyclicVoltammetry",
+        "entry_id": "kv6JW1Gdzo7yzaIW-6CfOhZBOgdK",
+        "upload_name": "test",
+        "authors": [
+            {
+                "user_id": "3b4ebb5f-41d1-4f2f-8764-5059b74d5cf2",
+                "name": "Tobias R\u00f6schmann"
+            }
+        ],
+        "license": "CC BY 4.0",
+        "data": {
+            "name": "test cv",
+            "datetime": "2024-05-02T09:42:42.605832+00:00",
+            "method": "Cyclic Voltammetry",
+            "atmosphere": [
+                {
+                    "temperature": 80.0,
+                    "ambient_pressure": 0.25,
+                    "relative_humidity": 42.0
+                }
+            ],
+            "properties": {
+                "sample_area": 30.0,
+                "initial_potential": 10.0,
+                "initial_potential_measured_against": "Eref",
+                "limit_potential_1": 40.0,
+                "limit_potential_1_measured_against": "Eoc",
+                "limit_potential_2": 50.0,
+                "limit_potential_2_measured_against": "Eoc",
+                "final_potential_measured_against": "Eref",
+                "scan_rate": 250.0,
+                "step_size": 25.0,
+                "cycles": 5.0
+            }
+        }
+    }
+}

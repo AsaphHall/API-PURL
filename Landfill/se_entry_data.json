@@ -1,0 +1,513 @@
+{
+    "entry_id": "7HRbr9PArIX07mii6oC4Xwx19hGs",
+    "required": {},
+    "data": {
+        "upload_id": "CLGjcvkGRy2nFBwxei5Zzw",
+        "references": [],
+        "origin": "Michael G\u00f6tte",
+        "text_search_contents": [
+            "Step 1",
+            "spiro spincoating",
+            "Hole Transport Layer",
+            "Spiro-OMeTAD in CBZ solution 0.08 milliliter",
+            "Step 2",
+            "Spin Coating",
+            "Spiro"
+        ],
+        "quantities": [
+            "",
+            "data",
+            "data.datetime",
+            "data.layer",
+            "data.layer.layer_material",
+            "data.layer.layer_material_name",
+            "data.layer.layer_type",
+            "data.method",
+            "data.name",
+            "data.recipe_steps",
+            "data.recipe_steps.name",
+            "data.recipe_steps.speed",
+            "data.recipe_steps.time",
+            "data.solution",
+            "data.solution.name",
+            "data.solution.solution",
+            "data.solution.solution_volume",
+            "metadata",
+            "metadata.coauthors",
+            "metadata.datasets",
+            "metadata.embargo_length",
+            "metadata.entry_coauthors",
+            "metadata.entry_create_time",
+            "metadata.entry_hash",
+            "metadata.entry_id",
+            "metadata.entry_name",
+            "metadata.entry_references",
+            "metadata.entry_references.source_name",
+            "metadata.entry_references.source_path",
+            "metadata.entry_references.source_quantity",
+            "metadata.entry_references.target_entry_id",
+            "metadata.entry_references.target_mainfile",
+            "metadata.entry_references.target_name",
+            "metadata.entry_references.target_path",
+            "metadata.entry_references.target_reference",
+            "metadata.entry_references.target_upload_id",
+            "metadata.entry_timestamp",
+            "metadata.entry_timestamp.timestamp",
+            "metadata.entry_timestamp.token",
+            "metadata.entry_timestamp.token_seed",
+            "metadata.entry_timestamp.tsa_server",
+            "metadata.entry_type",
+            "metadata.files",
+            "metadata.last_edit_time",
+            "metadata.last_processing_time",
+            "metadata.license",
+            "metadata.main_author",
+            "metadata.mainfile",
+            "metadata.nomad_commit",
+            "metadata.nomad_version",
+            "metadata.parser_name",
+            "metadata.processed",
+            "metadata.processing_errors",
+            "metadata.published",
+            "metadata.quantities",
+            "metadata.references",
+            "metadata.reviewers",
+            "metadata.section_defs",
+            "metadata.section_defs.definition_id",
+            "metadata.section_defs.definition_qualified_name",
+            "metadata.section_defs.used_directly",
+            "metadata.sections",
+            "metadata.upload_create_time",
+            "metadata.upload_id",
+            "metadata.upload_name",
+            "metadata.with_embargo",
+            "results",
+            "results.eln",
+            "results.eln.methods",
+            "results.eln.names",
+            "results.eln.sections",
+            "results.material",
+            "results.material.elements",
+            "results.properties",
+            "results.properties.optoelectronic",
+            "results.properties.optoelectronic.solar_cell",
+            "results.properties.optoelectronic.solar_cell.absorber",
+            "results.properties.optoelectronic.solar_cell.back_contact",
+            "results.properties.optoelectronic.solar_cell.device_stack",
+            "results.properties.optoelectronic.solar_cell.electron_transport_layer",
+            "results.properties.optoelectronic.solar_cell.hole_transport_layer",
+            "workflow2",
+            "workflow2.name"
+        ],
+        "datasets": [],
+        "n_quantities": 70,
+        "nomad_version": "1.2.2.dev315+g873ad1475",
+        "upload_create_time": "2023-09-30T11:33:06.341000+00:00",
+        "nomad_commit": "",
+        "section_defs": [
+            {
+                "used_directly": false,
+                "definition_id": "bad4dabbde165bb20f57c1d5a7f9d938560ef504",
+                "definition_qualified_name": "baseclasses.BaseProcess"
+            },
+            {
+                "used_directly": false,
+                "definition_id": "c9ef10f7b06e7ab79b5c7e72f07666de1b6e74a6",
+                "definition_qualified_name": "baseclasses.LayerDeposition"
+            },
+            {
+                "used_directly": true,
+                "definition_id": "c094848f2d60f7f8ccf6c77dcf27c1155be67db3",
+                "definition_qualified_name": "baseclasses.LayerProperties"
+            },
+            {
+                "used_directly": true,
+                "definition_id": "a6d2ece5e95842261a951f339ae28fe3c38ebed7",
+                "definition_qualified_name": "baseclasses.wet_chemical_deposition.spin_coating.SpinCoating"
+            },
+            {
+                "used_directly": true,
+                "definition_id": "6ec78906630ac977c95c53a52d8277b5661a79cf",
+                "definition_qualified_name": "baseclasses.wet_chemical_deposition.spin_coating.SpinCoatingRecipeSteps"
+            },
+            {
+                "used_directly": true,
+                "definition_id": "c1e6e73260bbe9fddac4afcd7f434edc2aa4d92f",
+                "definition_qualified_name": "baseclasses.wet_chemical_deposition.wet_chemical_deposition.PrecursorSolution"
+            },
+            {
+                "used_directly": false,
+                "definition_id": "1844e80068d237dde73e1ee1e49d6b65ba03a927",
+                "definition_qualified_name": "baseclasses.wet_chemical_deposition.wet_chemical_deposition.WetChemicalDeposition"
+            },
+            {
+                "used_directly": true,
+                "definition_id": "b2a366d317fdcb4727b9cb81d60c22ea2c49a07f",
+                "definition_qualified_name": "hysprint_s.HySprint_SpinCoating"
+            },
+            {
+                "used_directly": true,
+                "definition_id": "7047cbff9980abff17cce4b1b6b0d1c783505b7f",
+                "definition_qualified_name": "nomad.datamodel.data.ArchiveSection"
+            },
+            {
+                "used_directly": true,
+                "definition_id": "538f52fd8d52b29372066f878319c6aeb03b74d2",
+                "definition_qualified_name": "nomad.datamodel.data.EntryData"
+            },
+            {
+                "used_directly": true,
+                "definition_id": "fc6d33ff20b637e2e43c27aa5696062b09af56b8",
+                "definition_qualified_name": "nomad.datamodel.datamodel.EntryArchive"
+            },
+            {
+                "used_directly": true,
+                "definition_id": "2b88e559023cd996cfda4abfaf5754fd26e03e44",
+                "definition_qualified_name": "nomad.datamodel.datamodel.EntryArchiveReference"
+            },
+            {
+                "used_directly": true,
+                "definition_id": "05a28fa9fb98a6760d57e6246291f057bf202c4d",
+                "definition_qualified_name": "nomad.datamodel.datamodel.EntryMetadata"
+            },
+            {
+                "used_directly": true,
+                "definition_id": "265ae33dbc9ace82b50260c1050d30c59ef9cb3c",
+                "definition_qualified_name": "nomad.datamodel.datamodel.RFC3161Timestamp"
+            },
+            {
+                "used_directly": false,
+                "definition_id": "fc2735d177bf36f9718ca66a764a56fc0c6200a0",
+                "definition_qualified_name": "nomad.datamodel.metainfo.basesections.Activity"
+            },
+            {
+                "used_directly": false,
+                "definition_id": "add2edfa25a61ff3bbfdebacc870181f64f41634",
+                "definition_qualified_name": "nomad.datamodel.metainfo.basesections.BaseSection"
+            },
+            {
+                "used_directly": false,
+                "definition_id": "8d81e1f95c60f39a6a8c9f954143a55e6f4c984c",
+                "definition_qualified_name": "nomad.datamodel.metainfo.basesections.Process"
+            },
+            {
+                "used_directly": true,
+                "definition_id": "ac62fdff74f54fd477531446ca111c0dd9df6ba2",
+                "definition_qualified_name": "nomad.datamodel.metainfo.workflow.Task"
+            },
+            {
+                "used_directly": true,
+                "definition_id": "fc65ae24157492e422afe61173a71403fc5e1fd7",
+                "definition_qualified_name": "nomad.datamodel.metainfo.workflow.Workflow"
+            },
+            {
+                "used_directly": true,
+                "definition_id": "eeed330bd18d40f3a2a00cc35ba6f58808d0c543",
+                "definition_qualified_name": "nomad.datamodel.results.ELN"
+            },
+            {
+                "used_directly": true,
+                "definition_id": "97e18aaeb9ea82b65bd2115e5775450a0f88c91f",
+                "definition_qualified_name": "nomad.datamodel.results.Material"
+            },
+            {
+                "used_directly": true,
+                "definition_id": "f7cf907b8844bd8dba3b51970f8caa5e525944eb",
+                "definition_qualified_name": "nomad.datamodel.results.OptoelectronicProperties"
+            },
+            {
+                "used_directly": true,
+                "definition_id": "260156f83e51adc823b1f619897fb0d7e3fbaffc",
+                "definition_qualified_name": "nomad.datamodel.results.Properties"
+            },
+            {
+                "used_directly": true,
+                "definition_id": "0f0e21c64644f5cec327121ed6f021080721478e",
+                "definition_qualified_name": "nomad.datamodel.results.Results"
+            },
+            {
+                "used_directly": true,
+                "definition_id": "07a7e7f7d21c6565fe085633cb5455c8b47a5a8c",
+                "definition_qualified_name": "nomad.datamodel.results.SolarCell"
+            }
+        ],
+        "processing_errors": [],
+        "results": {
+            "material": {
+                "elements": [],
+                "elements_exclusive": "",
+                "structural_type": "not processed",
+                "n_elements": 0
+            },
+            "eln": {
+                "names": [
+                    "spiro spincoating"
+                ],
+                "methods": [
+                    "Spin Coating"
+                ],
+                "sections": [
+                    "HySprint_SpinCoating"
+                ]
+            },
+            "properties": {
+                "optoelectronic": {
+                    "solar_cell": {
+                        "device_stack": [
+                            "Spiro"
+                        ],
+                        "hole_transport_layer": [
+                            "Spiro"
+                        ],
+                        "back_contact": [],
+                        "absorber": [],
+                        "electron_transport_layer": []
+                    }
+                },
+                "available_properties": [
+                    "solar_cell"
+                ]
+            }
+        },
+        "entry_name": "spiro spincoating",
+        "last_processing_time": "2024-04-30T13:43:44.626000+00:00",
+        "parser_name": "parsers/archive",
+        "calc_id": "7HRbr9PArIX07mii6oC4Xwx19hGs",
+        "published": false,
+        "writers": [
+            {
+                "user_id": "e2796594-6a85-4a0b-a7ae-5862505c24d7",
+                "name": "Michael G\u00f6tte"
+            },
+            {
+                "user_id": "e9e2df2f-5332-417e-9ae2-c5f1fc253678",
+                "name": "Rico Meitzner"
+            },
+            {
+                "user_id": "3b4ebb5f-41d1-4f2f-8764-5059b74d5cf2",
+                "name": "Tobias R\u00f6schmann"
+            },
+            {
+                "user_id": "e0ca1551-3d38-42df-971d-224e5eeb4d29",
+                "name": "Valerio Stacchini"
+            }
+        ],
+        "sections": [
+            "baseclasses.LayerProperties",
+            "baseclasses.wet_chemical_deposition.spin_coating.SpinCoatingRecipeSteps",
+            "baseclasses.wet_chemical_deposition.wet_chemical_deposition.PrecursorSolution",
+            "hysprint_s.HySprint_SpinCoating",
+            "nomad.datamodel.datamodel.EntryArchive",
+            "nomad.datamodel.datamodel.EntryArchiveReference",
+            "nomad.datamodel.datamodel.EntryMetadata",
+            "nomad.datamodel.datamodel.RFC3161Timestamp",
+            "nomad.datamodel.metainfo.workflow.Workflow",
+            "nomad.datamodel.results.ELN",
+            "nomad.datamodel.results.Material",
+            "nomad.datamodel.results.OptoelectronicProperties",
+            "nomad.datamodel.results.Properties",
+            "nomad.datamodel.results.Results",
+            "nomad.datamodel.results.SolarCell"
+        ],
+        "processed": true,
+        "mainfile": "spiro_spincoating.archive.json",
+        "main_author": {
+            "user_id": "e2796594-6a85-4a0b-a7ae-5862505c24d7",
+            "name": "Michael G\u00f6tte"
+        },
+        "viewers": [
+            {
+                "user_id": "e2796594-6a85-4a0b-a7ae-5862505c24d7",
+                "name": "Michael G\u00f6tte"
+            },
+            {
+                "user_id": "e9e2df2f-5332-417e-9ae2-c5f1fc253678",
+                "name": "Rico Meitzner"
+            },
+            {
+                "user_id": "3b4ebb5f-41d1-4f2f-8764-5059b74d5cf2",
+                "name": "Tobias R\u00f6schmann"
+            },
+            {
+                "user_id": "e0ca1551-3d38-42df-971d-224e5eeb4d29",
+                "name": "Valerio Stacchini"
+            }
+        ],
+        "entry_create_time": "2023-09-30T12:22:08.685000+00:00",
+        "with_embargo": false,
+        "search_quantities": [
+            {
+                "path_archive": "data.name",
+                "str_value": "spiro spincoating",
+                "definition": "nomad.datamodel.metainfo.basesections.BaseSection.name",
+                "id": "data.name#hysprint_s.HySprint_SpinCoating"
+            },
+            {
+                "path_archive": "data.datetime",
+                "datetime_value": "2023-09-29T14:59:14.173925+00:00",
+                "definition": "nomad.datamodel.metainfo.basesections.Activity.datetime",
+                "id": "data.datetime#hysprint_s.HySprint_SpinCoating"
+            },
+            {
+                "path_archive": "data.method",
+                "str_value": "Spin Coating",
+                "definition": "nomad.datamodel.metainfo.basesections.Activity.method",
+                "id": "data.method#hysprint_s.HySprint_SpinCoating"
+            },
+            {
+                "path_archive": "data.layer.0.layer_type",
+                "str_value": "Hole Transport Layer",
+                "definition": "baseclasses.LayerProperties.layer_type",
+                "id": "data.layer.layer_type#hysprint_s.HySprint_SpinCoating"
+            },
+            {
+                "path_archive": "data.layer.0.layer_material_name",
+                "str_value": "Spiro",
+                "definition": "baseclasses.LayerProperties.layer_material_name",
+                "id": "data.layer.layer_material_name#hysprint_s.HySprint_SpinCoating"
+            },
+            {
+                "path_archive": "data.layer.0.layer_material",
+                "str_value": "",
+                "definition": "baseclasses.LayerProperties.layer_material",
+                "id": "data.layer.layer_material#hysprint_s.HySprint_SpinCoating"
+            },
+            {
+                "path_archive": "data.solution.0.name",
+                "str_value": "Spiro-OMeTAD in CBZ solution 0.08 milliliter",
+                "definition": "baseclasses.wet_chemical_deposition.wet_chemical_deposition.PrecursorSolution.name",
+                "id": "data.solution.name#hysprint_s.HySprint_SpinCoating"
+            },
+            {
+                "path_archive": "data.solution.0.solution_volume",
+                "definition": "baseclasses.wet_chemical_deposition.wet_chemical_deposition.PrecursorSolution.solution_volume",
+                "float_value": 0.08,
+                "id": "data.solution.solution_volume#hysprint_s.HySprint_SpinCoating"
+            },
+            {
+                "path_archive": "data.recipe_steps.0.name",
+                "str_value": "Step 1",
+                "definition": "baseclasses.wet_chemical_deposition.spin_coating.SpinCoatingRecipeSteps.name",
+                "id": "data.recipe_steps.name#hysprint_s.HySprint_SpinCoating"
+            },
+            {
+                "path_archive": "data.recipe_steps.0.time",
+                "definition": "baseclasses.wet_chemical_deposition.spin_coating.SpinCoatingRecipeSteps.time",
+                "float_value": 1.8,
+                "id": "data.recipe_steps.time#hysprint_s.HySprint_SpinCoating"
+            },
+            {
+                "path_archive": "data.recipe_steps.0.speed",
+                "definition": "baseclasses.wet_chemical_deposition.spin_coating.SpinCoatingRecipeSteps.speed",
+                "float_value": 200.0,
+                "id": "data.recipe_steps.speed#hysprint_s.HySprint_SpinCoating"
+            },
+            {
+                "path_archive": "data.recipe_steps.1.name",
+                "str_value": "Step 2",
+                "definition": "baseclasses.wet_chemical_deposition.spin_coating.SpinCoatingRecipeSteps.name",
+                "id": "data.recipe_steps.name#hysprint_s.HySprint_SpinCoating"
+            },
+            {
+                "path_archive": "data.recipe_steps.1.time",
+                "definition": "baseclasses.wet_chemical_deposition.spin_coating.SpinCoatingRecipeSteps.time",
+                "float_value": 30.0,
+                "id": "data.recipe_steps.time#hysprint_s.HySprint_SpinCoating"
+            },
+            {
+                "path_archive": "data.recipe_steps.1.speed",
+                "definition": "baseclasses.wet_chemical_deposition.spin_coating.SpinCoatingRecipeSteps.speed",
+                "float_value": 1800.0,
+                "id": "data.recipe_steps.speed#hysprint_s.HySprint_SpinCoating"
+            }
+        ],
+        "files": [
+            "spiro_spincoating.archive.json",
+            "CsMAFA_perovscite_spincoating.archive.json",
+            "FK209_in_ACN.archive.json",
+            "InterActive-Perovskite protocol-3.0.docx-1.pdf",
+            "Li-TFSI_in_ACN.archive.json",
+            "Perovskite_Precursor_CsI.archive.json",
+            "Perovskite_Precursor_FAPbI3.archive.json",
+            "Perovskite_Precursor_MAPbBr3.archive.json",
+            "Perovskite_precursor_PbBr2.archive.json",
+            "Perovskite_precursor_PbI2.archive.json",
+            "Perovskite_precursor_triple_cat.archive.json",
+            "SnCl_solution.archive.json",
+            "SnOx_compact_layer_spin_coating.archive.json",
+            "Spiro-OMeTAD_solution.archive.json",
+            "TiO2_mesoporous_layer_spincoating.archive.json",
+            "TiO2_solution_Acetylacetone.archive.json",
+            "evaporation_C60_BCP_Cu.archive.json",
+            "glass_ito_with_px.archive.json",
+            "solution_uv_cleaning.archive.json",
+            "tio2_paste_solution_ethanol.archive.json",
+            "tio2_spray_pyrolysis.archive.json"
+        ],
+        "entry_references": [
+            {
+                "target_upload_id": "CLGjcvkGRy2nFBwxei5Zzw",
+                "target_entry_id": "A257uTIIT39d20ae-jxHRLxa3Iri",
+                "target_name": "data",
+                "target_mainfile": "Spiro-OMeTAD_solution.archive.json",
+                "target_reference": "../uploads/CLGjcvkGRy2nFBwxei5Zzw/archive/A257uTIIT39d20ae-jxHRLxa3Iri#/data",
+                "source_path": "data.solution.solution",
+                "target_path": "/data",
+                "source_name": "solution",
+                "source_quantity": "baseclasses.wet_chemical_deposition.wet_chemical_deposition.PrecursorSolution.solution"
+            }
+        ],
+        "entry_type": "HySprint_SpinCoating",
+        "entry_id": "7HRbr9PArIX07mii6oC4Xwx19hGs",
+        "upload_name": "Interactive Perovskite Protocol Version 3.0",
+        "authors": [
+            {
+                "user_id": "e2796594-6a85-4a0b-a7ae-5862505c24d7",
+                "name": "Michael G\u00f6tte"
+            },
+            {
+                "user_id": "e9e2df2f-5332-417e-9ae2-c5f1fc253678",
+                "name": "Rico Meitzner"
+            },
+            {
+                "user_id": "3b4ebb5f-41d1-4f2f-8764-5059b74d5cf2",
+                "name": "Tobias R\u00f6schmann"
+            },
+            {
+                "user_id": "e0ca1551-3d38-42df-971d-224e5eeb4d29",
+                "name": "Valerio Stacchini"
+            }
+        ],
+        "license": "CC BY 4.0",
+        "data": {
+            "name": "spiro spincoating",
+            "datetime": "2023-09-29T14:59:14.173925+00:00",
+            "method": "Spin Coating",
+            "layer": [
+                {
+                    "layer_type": "Hole Transport Layer",
+                    "layer_material_name": "Spiro",
+                    "layer_material": ""
+                }
+            ],
+            "solution": [
+                {
+                    "name": "Spiro-OMeTAD in CBZ solution 0.08 milliliter",
+                    "solution_volume": 0.08
+                }
+            ],
+            "recipe_steps": [
+                {
+                    "name": "Step 1",
+                    "time": 1.8,
+                    "speed": 200.0
+                },
+                {
+                    "name": "Step 2",
+                    "time": 30.0,
+                    "speed": 1800.0
+                }
+            ]
+        }
+    }
+}

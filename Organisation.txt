@@ -1,11 +1,11 @@
 To-do live:
-    -start with ce instead of se
+    -start with ce instead of se [x]
 
 
 To-do old:
     -Retrieve Links [x]
-    -Retrieve Path of definition []
-    -Retrieve Links by entering id/similar []
+    -Retrieve Path of definition [x]
+    -Retrieve Links by entering id/similar [x]
     -Retrieve Links from Quantities []
     -Retrieve Links from Quantities by entering id/similar []
 
@@ -13,3 +13,38 @@ To-do old:
 Gedanken:
     -in Michas File sind alle Links enthalten -> Suche vermutlich am sinnvollsten nach 'Name' (CamelCase)
         - Problem 1: Namen sind inkonsistent (e.g. SpinCoating =! HySprint_Spincoating)
+
+-------------------------------------------------------------------------------------------------------------------
+Cut 1 (21.05.2024)
+-------------------------------------------------------------------------------------------------------------------
+
+Is: -Retrieve Links via EntryID per API works
+    -Can handle CE and SE File but needs Artifacts File
+Future:
+    -Restructure to Michas Input wishes
+    -Put it into a nice function
+
+Michas Wishes:
+    - Function call: def get_links_of_quantity_or_section(m_def: str, path: str):
+    "get_links_of_section('ce_nome_s.CE_NOME_CyclicVoltammetry', 'data')"
+    -"ce_nome_s.CE_NOME_CyclicVoltammetry"
+
+
+-------------------------------------------------------------------------------------------------------------------
+Durchbruch (29.05.2024)
+-------------------------------------------------------------------------------------------------------------------
+
+Backwardsretrival
+    m_def = ce_nome_s.CE_NOME_CyclicVoltammetry
+        split into ce_nome_s & CE_NOME_CyclicVoltammetry
+            retrieve base sections from package (artifacts -> packages)
+            ce_nome_s -> CE_NOME_CyclicVoltammetry and get numbers (50/1)
+                der link ist zu finden bei parent_index 50 -> parent_index 1
+
+Funktioniert!
+
+-------------------------------------------------------------------------------------------------------------------
+
+To-do
+
+Aktuell können Links aus Subsections oder Quantities nicht gefunden werden.

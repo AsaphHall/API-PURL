@@ -1,0 +1,26 @@
+
+BaseProcess: No Link
+LayerDeposition: ['https://purl.archive.org/tfsco/TFSCO_00000067']
+LayerProperties: ['https://purl.archive.org/tfsco/TFSCO_00000007']
+SpinCoating: ['http://purl.obolibrary.org/obo/CHMO_0001472']
+SpinCoatingRecipeSteps: No Link
+PrecursorSolution: ['https://purl.archive.org/tfsco/TFSCO_00001081']
+WetChemicalDeposition: ['https://purl.archive.org/tfsco/TFSCO_00002051']
+HySprint_SpinCoating: No Link
+ArchiveSection: No Link
+EntryData: No Link
+EntryArchive: No Link
+EntryArchiveReference: No Link
+EntryMetadata: No Link
+RFC3161Timestamp: No Link
+Activity: ['http://purl.obolibrary.org/obo/BFO_0000015']
+BaseSection: ['http://purl.obolibrary.org/obo/BFO_0000001']
+Process: ['http://purl.obolibrary.org/obo/OBI_0000094']
+Task: No Link
+Workflow: No Link
+ELN: No Link
+Material: No Link
+OptoelectronicProperties: No Link
+Properties: No Link
+Results: No Link
+SolarCell: No Link

@@ -1,0 +1,30 @@
+
+BaseMeasurement: ['http://purl.obolibrary.org/obo/OBI_0000070']
+SampleReference: No Link
+Atmosphere: ['https://purl.archive.org/tfsco/TFSCO_00001012']
+CVProperties: No Link
+CyclicVoltammetry: ['https://w3id.org/nfdi4cat/voc4cat_0000082']
+PotentiostatMeasurement: ['https://w3id.org/nfdi4cat/voc4cat_0007206']
+PotentiostatProperties: No Link
+VoltammetryCycle: No Link
+Voltammetry: ['https://w3id.org/nfdi4cat/voc4cat_0007237']
+VoltammetryCycleWithPlot: No Link
+CE_NSLI_CyclicVoltammetry: No Link
+ArchiveSection: No Link
+EntryData: No Link
+EntryArchive: No Link
+EntryMetadata: No Link
+RFC3161Timestamp: No Link
+Activity: ['http://purl.obolibrary.org/obo/BFO_0000015']
+ActivityStep: No Link
+BaseSection: ['http://purl.obolibrary.org/obo/BFO_0000001']
+CompositeSystemReference: No Link
+EntityReference: No Link
+Measurement: ['http://purl.obolibrary.org/obo/OBI_0000070']
+SectionReference: No Link
+Link: No Link
+Task: No Link
+Workflow: No Link
+ELN: No Link
+Properties: No Link
+Results: No Link
