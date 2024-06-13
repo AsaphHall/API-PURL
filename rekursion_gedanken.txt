@@ -1,0 +1,24 @@
+Rekursion
+
+path = ce_nome_s.CE_NOME_CyclicVoltammetry
+
+
+
+path_to_package = jmespath.search("[?name =='{}']".format(splitted_m_def[-2]), data["metainfo"]["packages"])[0]
+
+-------------------------------------------------------------------
+
+splitte pfad
+
+
+
+rekursion(
+nimm element -1 /nimm element 1
+
+gehe zu pfad
+
+rufe funktion erneut mit pfad-elemt +1 auf und füge ['json-pfad'] hinzu
+
+)
+
+---------------------------------------------------------------------

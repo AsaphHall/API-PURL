@@ -13,6 +13,7 @@ To-do old:
 Gedanken:
     -in Michas File sind alle Links enthalten -> Suche vermutlich am sinnvollsten nach 'Name' (CamelCase)
         - Problem 1: Namen sind inkonsistent (e.g. SpinCoating =! HySprint_Spincoating)
+    - 'LayerProperties' und 'layer_type' haben den gleichen Link (0007)
 
 -------------------------------------------------------------------------------------------------------------------
 Cut 1 (21.05.2024)
@@ -48,3 +49,18 @@ Funktioniert!
 To-do
 
 Aktuell können Links aus Subsections oder Quantities nicht gefunden werden.
+
+-Quantities
+-Subsections
+-Pfade auflösen/Rekursion
+
+-------------------------------------------------------------------------------------------------------------------
+06.06.2024
+
+-Quantities: 
+    -data["metainfo"]["packages"][0]["section_definitions"][0]["quantities"]
+-Subsections: 50381 10/0 "layer" 'http://purl.obolibrary.org/obo/RO_0002234' <- Relation
+    -data["metainfo"]["packages"][0]["section_definitions"][3]["sub_sections"]
+-
+
+
